@@ -310,5 +310,5 @@ Durante el desarrollo de este proyecto se utilizaron dos herramientas de IA, est
 
 5. "Al calcular ingresos totales en un dataset de taxis cuáles son las consideraciones para evitar dobles conteos cuando se analizan tanto por zona de pickup como por zona de dropoff y qué técnicas simples puedo usar para detectar valores anómalos en el monto total del viaje, es el percentil 99 una buena opción?"
 
-La IA fue utilizada como soporte técnico para validar enfoques y optimizar soluciones, mientras que el modelado de datos, la definición de métricas y las decisiones de arquitectura fueron diseñadas y razonadas manualmente.
+También la IA fue utilizada como soporte técnico para validar enfoques, deteccción de errores y para optimizar soluciones, sin embargo, la definición de métricas, las decisiones de arquitectura y la construcción de los dashboards con sus distintas opciones visuales y de comunicación estratégica fueron desarrolladas manualmente.
 
