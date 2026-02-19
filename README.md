@@ -46,7 +46,7 @@ Socrata API
 
 # 3. Modelo de Datos
 
-## Granuralidad
+## Granularidad
 
 `fact_trips`  
 1 row = 1 viaje
