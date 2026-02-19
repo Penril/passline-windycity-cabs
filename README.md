@@ -28,7 +28,7 @@ El producto de datos fue diseñado para responder las siguientes preguntas clave
 # 2. Arquitectura de la Solución
 
 Socrata API
-- Ingesta incremental con watermark de 60 dias de historia con el fin de poder luego en los dashboards hacer una comparación por periodos mensuales.
+- Ingesta incremental con watermark
 - `stg_trips` (capa raw normalizada)  
 - `fact_trips` (tabla analítica principal)  
 - Tablas agregadas (`daily_kpis`, `hourly_kpis`, `zone_kpis`, `payment_kpis`)  
@@ -57,6 +57,7 @@ Socrata API
 
 ## Estrategia de Ingesta Incremental
 
+- Ingesta incremental de 60 dias de historia con el fin de poder luego en los Dashboards hacer comparaciones por periodos mensuales.
 - Watermark basado en `trip_start_timestamp`
 - Paginación por offset desde la API
 - Upsert con `ON DUPLICATE KEY UPDATE`
