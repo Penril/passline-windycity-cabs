@@ -1,6 +1,6 @@
 # WindyCity Cabs – Solución End-to-End de Ingeniería de Datos
 
-Este proyecto implementa una solución analítica completa sobre el dataset de Chicago Taxi Trips, diseñada para soportar decisiones estratégicas tanto a nivel para las áreas de Finanzas como de Operaciones.
+Este proyecto implementa una solución analítica completa sobre el dataset de Chicago Taxi Trips, diseñada para soportar decisiones estratégicas tanto para las áreas de Finanzas como de Operaciones.
 
 La solución cubre:
 
